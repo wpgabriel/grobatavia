@@ -108,7 +108,7 @@
             if (pageList.masterPage){
                 prefetch(pageList.masterPage[0]);
             }
-            var hash = location.hash.split('index2.html');
+            var hash = location.hash.split('index.html');
             var pageId = hash[1] || pageList.mainPageId;
             var pages = pageList.pages;
             for (var i = 0; i < pages.length; ++i){
@@ -120,9 +120,9 @@
         } catch(e) {}
     })();
 </script>
-<script src="./require.min.js"></script>
-<script src="./main-r.js"></script>
-<link rel="stylesheet" href="./viewer.css">
+<script src="../static.parastorage.com/services/third-party/requirejs/2.1.15/require.min.js"></script>
+<script src="../static.parastorage.com/services/santa-versions/1.136.0/main-r.js"></script>
+<link rel="stylesheet" href="../static.parastorage.com/services/santa-versions/1.136.0/viewer.css">
 
     </head>
 <body>
