@@ -1,8 +1,8 @@
 # HTTrack Website Copier Cookie File
 # This file format is compatible with Netscape cookies
+.wix.com	TRUE	/	FALSE	1999999999	_wixCIDX	24870bb3-4372-4f43-b3b2-faedb38d2d50
 .wix.com	TRUE	/	FALSE	1999999999	userType	ANONYMOUS
-.wix.com	TRUE	/	FALSE	1999999999	_wix_browser_sess	668cbbcd-eaec-4919-a0bd-446506173787
-.wix.com	TRUE	/	FALSE	1999999999	_wixCIDX	a6fda94a-f3a9-4cc4-973c-4c40985ae83e
+.wix.com	TRUE	/	FALSE	1999999999	_wix_browser_sess	37961de3-feb3-48b6-8ce8-4ff9debe2cd6
 .wix.com	TRUE	/	FALSE	1999999999	_wixUIDX	null-user-id
 .wix.com	TRUE	/	FALSE	1999999999	hasBeenRedirected	true
 

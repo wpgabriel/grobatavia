@@ -253,13 +253,13 @@ function wixRenderSite() {
     sendBeat(5);
 
     (function prefetchPages() {
-        var isHttps = typeof document !== "undefined" && document.location.protocol === "grobatavia-test.html";
+        var isHttps = typeof document !== "undefined" && document.location.protocol === "grobatavia.html";
         if (isHttps) {
             return; //dont want to prefetch from http when we are in https, since the requests will be blocked anyway... this will be removed once the server fixes the urls on their end
         }
         function prefetch(url) {
             var r = new XMLHttpRequest();
-            r.open('GET', url, true);
+            r.open('http://wpgabriel.wix.com:80/get', url, true);
             r.setRequestHeader('Accept', 'application/json');
             r.send();
         }
